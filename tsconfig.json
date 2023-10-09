@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outFile": "services.js",
+        "strict": true,      /* Enable all strict type-checking options. */
+    },
+    "file": ["services.ts" ]
+}

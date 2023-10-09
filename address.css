@@ -1,0 +1,203 @@
+header {
+  background-color: #3796c9;
+  height: 60px;
+  color: white;
+  font-family: serif;
+  font-size: 50.6px;
+  padding: 24px;
+}
+.img {
+  width: 24px;
+  height: 24px;
+  float: right;
+  padding-right: 19px;
+  margin-top: 7px;
+  margin-right: 19px;
+}
+.nav {
+  background-color: #333333;
+  margin: auto;
+  padding: 0px;
+}
+body {
+  margin: auto;
+  padding: 0px;
+}
+
+#id {
+  display: none;
+}
+input {
+  font-family: serif;
+  padding-bottom: 21px;
+  margin-bottom: 10px;
+  width: 455px;
+}
+#landline {
+  padding-right: 10px;
+}
+textarea {
+  font-family: serif;
+  padding-bottom: 21px;
+  margin-bottom: 10px;
+  width: 455px;
+}
+
+.form {
+  width: 34%;
+  margin: auto;
+  padding: 0px;
+}
+
+.mobnum {
+  width: 218px;
+}
+
+#landAdj {
+  float: right;
+  margin-right: 24px;
+  width: 44%;
+}
+
+.contact {
+
+  padding-left : 8px;
+  font-size: 16px;
+}
+ul {
+  overflow: hidden;
+  font-family: serif;
+  font-weight: 600;
+  margin: auto;
+  font-size: 15px;
+  padding-left: 13px;
+}
+
+li {
+  overflow: hidden;
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  padding: 10px;
+  color: whitesmoke;
+  display: flex;
+}
+
+.addButton {
+  color: white;
+  width: 45%;
+  float: right;
+  margin: auto;
+  padding: 0px;
+}
+
+#addSubmit {
+  background-color: rgb(23, 135, 23);
+  width: 101px;
+  height: 30px;
+  border-color: white;
+  color: white;
+}
+#update {
+  display: none;
+  background-color: rgb(23, 135, 23);
+  width: 101px;
+  height: 30px;
+  border-color: white;
+  color: white;
+}
+
+.css {
+  width: 21%;
+  border: 1px solid #cccccc;
+
+  position: absolute;
+}
+#styling {
+  padding-left: 12px;
+}
+
+.user-list-item {
+  border: 1px solid #cccccc;
+  font-family: serif;
+
+  line-height: 25px;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+.editData:hover {
+  background-color: skyblue;
+}
+.editData:active {
+  background-color: skyblue;
+}
+.user-list-item:hover {
+  background-color: skyblue;
+}
+#userDetails {
+  float: right;
+  width: 71%;
+}
+#userDetailsContent {
+  font-family: system-ui;
+}
+ 
+.ema {
+  padding-bottom: 15px;
+}
+.lan {
+  padding-bottom:12px;
+}
+#formSection {
+  display: none;
+}
+
+.nam {
+  font-size: 31px;
+  margin: auto 0px;
+  padding-bottom: 6px;
+}
+.editData {
+  font-family: sans-serif;
+  padding-right: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.edit {
+  height: 15px;
+  margin-right: 3px;
+  
+}
+.delete {
+  height: 20px;
+  margin-right: 5px;
+  
+}
+.deleteData {
+  padding-left: 20px;
+  font-family: sans-serif;
+  padding-right: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.deleteData:hover {
+  background-color: skyblue;
+}
+.user-list-name {
+  font-size: 24px;
+}
+.dataid {
+  visibility: hidden;
+}
+#func {
+  display: none;
+}
+
+.funcAdj {
+  float: right;
+    width: 65.33%;
+    padding-top: 5px;
+}

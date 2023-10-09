@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="address.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script> -->
+    <script type="text/javascript" src="services.js"></script>
+    <script src="scripts/address.js"></script>
+    <title>Address Book</title>
+  </head>
+  <header>HealthOnUs</header>
+  <body>
+    <img
+      class="img"
+      src="Assets\icon.jpg"
+      alt="blog icon"
+      width="500"
+      height="333"
+    />
+    <div class="nav">
+      <ul>
+        <li id="home">
+          <a href="#"><i class="fa fa-fw fa-home"></i>HOME</a>
+        </li>
+        <li id="show"><a href="#">+ADD</a></li>
+      </ul>
+    </div>
+    <h3 class="contact">Contacts</h3>
+    <div id="styling">
+      <div class="css" id="css">
+        <div id="userListItems"></div>
+      </div>
+    </div>
+    <!-- Right side div for user details -->
+    <div id="userDetails">
+      <div id="func">
+        <div class="funcAdj">
+          <input type="hidden" id="hdnUserID" />
+          <span class="editData">
+            <img
+              src="Assets/edit1.jpg"
+              alt="edit"
+              class="edit"
+              id="data-id"
+            />EDIT</span
+          >
+          <span class="deleteData">
+            <img
+              src="Assets/delete1.png"
+              alt="delete"
+              class="delete"
+            />DELETE</span
+          >
+        </div>
+      </div>
+      <div id="userDetailsContent">
+        <div id="divUserDetail">
+          <p class="nam" id="nameLbl"></p>
+          <p class="ema"><span id="emailLbl"></span></p>
+          <p class="lan"><span id="mobileLbl"></span><br> <span id="landlineLbl"></span></p>
+          <p><span id="websiteLbl"></span></p>
+          <p><span id="addressLbl"></span></p>
+          <p><span id="id"></span></p>
+        </div>
+      </div>
+      <!-- User details will be displayed here -->
+    </div>
+
+    <div id="formSection">
+      <div class="form">
+        <div>
+          <label for="name">Name</label>
+          <div>
+            <input type="text" class="data" id="name" />
+            <span class="name-error"></span>
+          </div>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <div>
+            <input type="email" class="data" id="email" />
+            <span class="email-error"></span>
+          </div>
+        </div>
+        <div>
+          <label for="mobile">Mobile</label>
+
+          <label for="landline" id="landAdj">Landline</label>
+          <div>
+            <input type="number" class="mobnum" id="mobile" />
+            <span class="mobile-error"></span>
+
+            <input type="number" class="mobnum" id="landline" />
+            <span class="landline-error"></span>
+          </div>
+        </div>
+        <div>
+          <label for="Website">Website</label>
+          <div>
+            <input class="data" id="website" />
+            <span class="website-error"></span>
+          </div>
+        </div>
+        <div>
+          <label for="Address">Address</label>
+
+          <div>
+            <textarea
+              type="text"
+              class="data"
+              id="address"
+              cols="25"
+              rows="5"
+            ></textarea>
+            <span class="address-error"></span>
+          </div>
+        </div>
+      </div>
+      <div class="addButton">
+        <button id="addSubmit" type="submit">Add</button>
+        <button id="update" type="submit">Update</button>
+      </div>
+    </div>
+  </body>
+</html>
